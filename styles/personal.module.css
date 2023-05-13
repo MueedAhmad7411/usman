@@ -1,0 +1,29 @@
+.personal{
+    width: 100%;
+    height:100vh;
+}
+
+.left{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.left h1{
+    width: 50%;
+    transform: translate(50%);
+    color: #2A93D5;
+    font-family:Lucida Sans Unicode ;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+.right{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.usman_image{
+    position: absolute;
+    left: 40%;
+   
+
+}

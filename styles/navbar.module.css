@@ -1,0 +1,30 @@
+.waves{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;   
+}
+.wave{
+    width: 40%;
+}
+.wave_image{
+    margin-left: 30%;
+}
+.navbar{
+    justify-content: center;
+    width: 60%;   
+    display: flex;
+    gap: 40px;
+}
+.navbar .link{
+    text-decoration: none;
+    color: #023047;
+    font-family:Lucida Sans Unicode ;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.navbtn{
+    background-color: #023047;
+    height: 6vh;
+    left: -15%;
+}
