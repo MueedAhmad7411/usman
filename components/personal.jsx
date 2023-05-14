@@ -5,14 +5,16 @@ import usman from "../photos/usman.jpeg"
 
 const Personal = () => {
   return (
-    <div className='bg-sky-50 '>
+    <div className='bg-sky-50 h-screen'>
     <div className={styles.personal}>
       <div className={styles.left}>
         <h1>I can assist you in healthcare equipment to diagnose technical issues</h1>
+        <p>Diagonosis is not the end but the begining of process</p>
      </div>
       <div className={styles.right}>
-       
+      <p>Eng:Muhammad Usman</p>
       </div>
+  
    </div>
    </div>
   )
