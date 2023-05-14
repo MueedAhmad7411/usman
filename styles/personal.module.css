@@ -10,20 +10,24 @@
 }
 .left h1{
     width: 50%;
-    transform: translate(50%);
+    transform: translate(50%,20%);
     color: #2A93D5;
     font-family:Lucida Sans Unicode ;
     font-weight: 900;
     font-size: 2.3rem;
 }
 .right{
-    width: 100%;
-    height: auto;
+    width: 20%;
+    height: 40vh;
     display: flex;
+    border-radius: 50%;
+    transform: translate(190%,25%);
+    background-image: url("../photos/usman.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .usman_image{
     position: absolute;
     left: 40%;
-   
-
-}
+ }

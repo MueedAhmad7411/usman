@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';
 
 const Navbar = () => {
   return (
+
     <div className={styles.waves}>
        <div className={styles.wave}>
         <Image className={styles.wave_image} src={Wave}

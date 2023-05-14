@@ -5,20 +5,16 @@ import usman from "../photos/usman.jpeg"
 
 const Personal = () => {
   return (
+    <div className='bg-sky-50 '>
     <div className={styles.personal}>
       <div className={styles.left}>
         <h1>I can assist you in healthcare equipment to diagnose technical issues</h1>
-
-      </div>
+     </div>
       <div className={styles.right}>
-        <Image className={styles.usman_image}
-         src={usman} 
-         alt="not found"
-         width={300}
-         height= {300}/>
+       
       </div>
-
-    </div>
+   </div>
+   </div>
   )
 }
 
