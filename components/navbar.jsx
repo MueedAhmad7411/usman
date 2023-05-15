@@ -19,11 +19,13 @@ const Navbar = () => {
        <div className={styles.navbar}>
           <Link className={styles.link} href="/services">Services</Link>
           <Link className={styles.link} href="/portfolio">Portfolio</Link>
+          <Link className={styles.link} href="/blog">My work</Link>
           <Link className={styles.link} href="/blog">Blog</Link>
-          
-         
-      </div>
+       </div>
+       <div className='connect'>
       <Button className={styles.navbtn} variant="contained">Connect</Button>
+      </div>
+
    </div>
   );
 }

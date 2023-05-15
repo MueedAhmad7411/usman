@@ -1,3 +1,4 @@
+@media only screen and (min-width: 900px){
 .waves{
     width: 100%;
     height: 13vh;
@@ -27,4 +28,24 @@
     background-color: #023047;
     height: 6vh;
     left: -15%;
+}
+}
+@media only screen and (max-width: 600px){
+ .waves{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+ }  
+ .wave{
+    display: none;
+ }
+ .navbar{
+    display: none;
+ }
+.connect{
+    display: none;
+}
+
 }
