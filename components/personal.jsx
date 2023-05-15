@@ -1,8 +1,8 @@
-import React from 'react';
+"use client";
+
+import * as React from 'react';
 import styles from "../styles/personal.module.css";
-import Image from "next/image";
-import usman from "../photos/usman.jpeg";
-import 'bootstrap/dist/css/bootstrap.css';
+import  Button  from '@mui/material/Button';
 
 const Personal = () => {
   return (
@@ -11,13 +11,13 @@ const Personal = () => {
       <div className={styles.left}>
         <h1>I can assist you in healthcare equipment to diagnose technical issues</h1>
         <p>Diagonosis is not the end but the begining of process</p>
+        <Button style={{background:"#2A93D5",marginLeft:"25%",marginTop:"3%",width:"150px"}} variant="contained">Explore</Button>
      </div>
       <div className={styles.right}>
       <p>Muhammad Usman</p>
       </div>
-  
    </div>
-   </div>
+  </div>
   )
 }
 
