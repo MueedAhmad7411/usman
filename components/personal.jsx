@@ -13,7 +13,7 @@ const Personal = () => {
         <p>Diagonosis is not the end but the begining of process</p>
      </div>
       <div className={styles.right}>
-      <p>Eng:Muhammad Usman</p>
+      <p>Muhammad Usman</p>
       </div>
   
    </div>

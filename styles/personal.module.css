@@ -9,6 +9,7 @@
 .left{
     width: 50%;
     height: auto;
+    border: none;
 }
 .left h1{
     width: 50%;

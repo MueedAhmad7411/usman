@@ -1,4 +1,5 @@
 "use client";
+
 import * as React from 'react';
 import Wave from '../photos/wave.jpeg';
 import Link from 'next/link';
